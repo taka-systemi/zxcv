@@ -151,7 +151,7 @@ man -l target/man/zxcv.1
 ### Homebrew
 
 ```sh
-brew uninstall zxcv
+brew uninstall kuzukawa/tap/zxcv
 ```
 
 `brew uninstall` removes only the binary. To also remove user data:
@@ -160,10 +160,6 @@ brew uninstall zxcv
 rm -rf ~/.config/zxcv                   # config
 rm -rf ~/.local/state/zxcv              # history + first-run sentinel
 rm -rf ~/.cache/zxcv                    # LLM response cache
-
-```
-
-```sh
 rm -f  ~/.local/share/man/man1/zxcv*.1  # man pages (if installed)
 ```
 

@@ -1,6 +1,6 @@
 # Contributing
 
-Information for developper.
+Information for developers.
 
 ## Requirements
 

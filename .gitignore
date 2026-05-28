@@ -1,13 +1,10 @@
-# Claude Code cahces
+# Claude Code caches
 .claude/
 context/
 
 # Exclude Superpowers skill artifacts
 docs/superpowers
 .superpowers
-
-# Personal docs
-TODO.md
 
 # Rust build artifacts
 /target
